@@ -8,4 +8,91 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 20%;
+    padding: 0;
+    overflow: hidden;
+ 	position: absolute;
+ 	bottom: 25px;
+ 	color: #1c5380;
+}
+
+li{
+	float: left;
+	margin-right: 20px;
+}
+
+span{
+	font-weight: bold;
+}
+#heading{
+	color: #06365f;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#topBlueDiv{
+	background-color: #1c5380;
+	padding: 170px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#phoneImg{
+	position: absolute;
+	margin: 100px 0 0 100px;
+}
+
+#description{
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	margin: 18% 0 0 40%;
+}
+
+#brand{
+	position: absolute;
+	margin: 10% 0 0 40%;
+}
+
+#frame{
+	position: absolute;
+	margin: 17% 0 0 37%;
+}
+
+#home{
+	position: absolute;
+	margin: 12% 0 0 65%;
+	z-index: 2;
+}
+
+#badgeGoog{
+	position: absolute;
+	margin: 40% 0 0 55%;
+
+}
+
+#badgeIphone{
+	position: absolute;
+	margin: 40% 0 0 40%;
+}
+
+#copyright{
+	color: gray;
+}
+
+#submit{
+	position: absolute;
+	margin: 11% 0 0 64.5%;
+	height: 45px;
+	width: 128px;
+	color: white;
+	background-color: #2C73BB;
+	font-size: 15px;
 }
